@@ -20,4 +20,4 @@ git add .
 git commit -m "Daily commit: $(date +'%Y-%m-%d')"
 
 # Push the commit to GitHub
-git push REPO_NAME
+git push
