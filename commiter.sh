@@ -15,9 +15,9 @@ CONTENT="Pay no attention to that man behind the curtain!"
 git pull origin $BRANCH_NAME
 
 # Add the new content and commit
-echo "$CONTENT" > emeraldCity.txt
+echo "$CONTENT" > src/emeraldCity.txt
 git add .
 git commit -m "Daily commit: $(date +'%Y-%m-%d')"
 
 # Push the commit to GitHub
-git push
+git push REPO_NAME
