@@ -14,7 +14,7 @@ cd ~/Code/practice/grand-work
 git pull origin $BRANCH_NAME
 
 # Add the new content and commit
-echo "$CONTENT" > src/emeraldCity.txt
+echo "$CONTENT" >> src/emeraldCity.txt
 git add .
 git commit -m "Daily commit: $(date +'%Y-%m-%d')"
 
